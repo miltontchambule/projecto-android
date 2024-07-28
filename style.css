@@ -104,6 +104,8 @@ section p{
     transition-duration: 0.5s;
     transform-origin: bottom;
     line-height: 1.4em;
+    background-attachment: fixed;
+    display: block;
 }
 .meias{
 text-align: center;
