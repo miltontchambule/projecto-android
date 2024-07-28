@@ -1,0 +1,141 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #17181D;
+}
+
+/*
+COLOCAR FONTE NOW DO ADOBE FONTS.
+*/
+
+
+
+:root{
+--cor1: #FCD9B8;
+--cor2:#292C35;
+--cor3: #17181D;
+--cor4: #E09145;
+
+}
+header{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #E09145;
+}
+header > p{
+    font-weight: bolder;
+font-size: smaller;
+}
+
+nav{
+    word-spacing: 10px;
+    font-weight: 500;
+    background-color: var(--cor2);
+    padding: 18px;
+    display: block;
+    text-align: center;
+   
+    
+}
+nav > a{
+    margin: auto;
+    padding: 5px;
+    line-height: 2em;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    
+    
+   
+}
+nav > a:hover{
+ background-color:white;
+    color:black; 
+    transition-duration: 0.5s;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+main{
+   font-weight: bolder;
+    font-size: xx-large;
+    background-attachment: fixed;
+    margin: 10px 50px 5px 50px;
+    max-width: 1300px;
+    min-width: 300px;
+    margin: auto;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+
+}
+
+main > aside{
+    margin-bottom: 20px;
+}
+main > p{
+    font-size: 70px;
+    text-align: center;
+    margin: 20px 50px 5px 50px;
+    padding: 40px 0px 0px 0px;
+    max-width: 1536;
+    min-width: 300px;
+}
+
+section{
+display: block;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    
+}
+
+section p{
+    background-color: #292C35;
+    color: #FCD9B8;
+    margin: 40px 330px 40px 330px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    transform-origin: bottom;
+    line-height: 1.4em;
+}
+.meias{
+text-align: center;
+margin: auto;
+display: block;
+
+}
+
+aside{
+    background-color: #17181D;
+    color: #FCD9B8; 
+    font-weight: lighter;
+    text-align: justify;
+    line-height: 2em;
+    font-size: small;
+    max-width: 1300px;
+    min-width: 300px;
+   margin: 0px 30px 0px 30px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+   
+}
+
+aside > p{
+     margin: 0px 35px 80px 35px;
+}
+aside > h3{
+    font-size: large;
+    background-color: rgb(167, 167, 167);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
